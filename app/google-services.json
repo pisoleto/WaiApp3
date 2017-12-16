@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "502680158910",
+    "firebase_url": "https://waiapp-75716.firebaseio.com",
+    "project_id": "waiapp-75716",
+    "storage_bucket": "waiapp-75716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502680158910:android:8196f189a96c1ebb",
+        "android_client_info": {
+          "package_name": "com.jesus.waiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502680158910-mqrf6cauuv8peji8qkt5eafpag4ng3dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jesus.waiapp",
+            "certificate_hash": "d2d52b0887500fc1dae148b32b0173a312a449a8"
+          }
+        },
+        {
+          "client_id": "502680158910-76ungcei4gj1ej11j5km9d4m29lqja2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlIkFoLTZs_oo-0peOY8c6-8jldRuhMjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502680158910-76ungcei4gj1ej11j5km9d4m29lqja2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jesus.waiapp.GameDescription">
+
+
+    <ImageView
+
+        android:id="@+id/singleBlogImage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="centerCrop"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/singleBlogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:maxLines="1"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:text="Titulo de videojuego"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/singleBlogImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        android:id="@+id/interesadosDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="Interesados"
+        android:textSize="11sp"
+        android:layout_below="@+id/singleBlogTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/plataformasLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_below="@+id/interesadosDesc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+
+            android:id="@+id/plataformaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="7"
+            android:ems="10"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Plataforma"
+            android:textSize="11sp" />
+
+        <TextView
+
+            android:id="@+id/singleBlogDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_weight="3"
+            android:ems="10"
+            android:paddingLeft="0dp"
+            android:paddingRight="15dp"
+            android:text="Descripcion de plataformas"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lanzamientoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/plataformasLayout"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        android:weightSum="10">
+
+        <TextView
+
+            android:id="@+id/lanzamientoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/singleBlogTitle"
+            android:layout_weight="7"
+            android:ems="10"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Lanzamiento"
+            android:textSize="11sp" />
+
+        <TextView
+
+            android:id="@+id/lanzamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/singleBlogTitle"
+            android:layout_weight="3"
+            android:ems="10"
+            android:paddingLeft="0dp"
+            android:paddingRight="15dp"
+            android:text="Fecha de lanzamiento"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/generoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lanzamientoLayout"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        android:weightSum="10">
+
+        <TextView
+
+            android:id="@+id/generoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/singleBlogTitle"
+            android:layout_weight="7"
+            android:ems="10"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Genero"
+            android:textSize="11sp" />
+
+        <TextView
+
+            android:id="@+id/genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/singleBlogTitle"
+            android:layout_weight="3"
+            android:ems="10"
+            android:paddingLeft="0dp"
+            android:paddingRight="15dp"
+            android:text="Descripcion de genero"
+            android:textColor="@color/colorPrimary"
+            android:textSize="11sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/descripcionJuegoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/generoLayout"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+
+
+            android:id="@+id/descripcionJuego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/singleBlogTitle"
+            android:layout_weight="3"
+            android:ems="10"
+            android:lineSpacingMultiplier="1.5"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Aqui va la descripción completa del videojuego, sera desplegable mientras que los botones siempre seran fijos."
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/botonesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="3"
+        >
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            app:srcCompat="@mipmap/ic_whatshot_white_24dp" />
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            app:srcCompat="@mipmap/ic_cake_white_24dp" />
+
+        <ImageButton
+            android:id="@+id/alquilarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            app:srcCompat="@mipmap/ic_place_white_24dp" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

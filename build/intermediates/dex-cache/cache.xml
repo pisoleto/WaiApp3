@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Jesus_Manuel\MIS_TRABAJOS\WaiApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="136b08c65a530db0fa2771509e269eb9c71321ba">
+        <dex dex="F:\Jesus_Manuel\MIS_TRABAJOS\WaiApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ea9ae68215112e022ee61cf9feb115e81e3b4647\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Jesus_Manuel\MIS_TRABAJOS\WaiApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Jesus_Manuel\MIS_TRABAJOS\WaiApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_84037090b33f825e7e17fbf57ee5e437589edbb6\classes.dex" />
+    </item>
+
+</items>
